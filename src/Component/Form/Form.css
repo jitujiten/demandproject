@@ -1,0 +1,56 @@
+.mainwraper{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.mainwraperis{
+    display: flex;
+    justify-content:center;
+    margin-top: 2%;
+}
+select,input{
+    height: 48px;
+    width: 370px;
+    left: 376px;
+    top: 1388.367919921875px;
+    border-radius: 3px;
+    padding: 10px;
+    
+}
+option{
+    font-family: "Lato", sans-serif;
+    color:#272733;
+}
+.label{
+    height: 22px;
+width: 720.3853759765625px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+color: #FFFFFF;
+
+}
+#range{
+    height: 6px;
+width: 740px;
+left: 3.5px;
+top: 3.5px;
+border-radius: 0px;
+
+}
+
+.rangewrapper{
+    display: flex;  
+    flex-direction: column;
+}
+
+button{
+    height: 48px;
+    width: 370px;
+    left: 775px;
+    top: 1569.80517578125px;
+    border-radius: 4px;
+    padding: 15px 10px 15px 10px;
+    background-color: #3E9CDC;    
+    color:#FFFFFF;
+}

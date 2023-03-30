@@ -1,45 +1,29 @@
-import React from "react";
-
-
-const App=()=>{
-
-  let dummy_expenses = [
-    {
-      id: "e1",
-      title: "Toilet Paper",
-      amount: 94.12,
-      date: new Date(2020, 7, 14),
-      location: "mumbai",
-    },
-    {
-      id: "e2",
-      title: "New TV",
-      amount: 799.49,
-      date: new Date(2021, 2, 12),
-      location: "kolkata",
-    },
-    {
-      id: "e3",
-      title: "car Insurance",
-      amount: 294.67,
-      date: new Date(2021, 2, 28),
-      location: "banglore",
-    },
-    {
-      id: "e4",
-      title: "New Desk (Wooden)",
-      amount: 450,
-      date: new Date(2021, 5, 12),
-      location: "odisha",
-    },
-  ];
+import "./App.css";
+import backgroudis from "./Images/background.png";
+import Header from "./Component/Header/Header";
+import MidSec from "./Component/Mid/Midsec";
+import Form from "./Component/Form/Form";
 
 
 
 
- return <div>
-  hiiii
- </div>
-}
+
+const App = (props) => {
+  return (
+    <div
+      className="containr"
+      style={{
+        backgroundImage: `url(${backgroudis})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+    >
+    <Header/>
+    <MidSec/>
+    <Form/>
+    </div>
+  );
+};
 
 export default App;
